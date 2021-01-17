@@ -1,0 +1,21 @@
+.menu-item {
+    display: inline;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    font-style: italic;
+}
+
+.menu-nav {
+background-color:mediumpurple;
+}
+
+a {
+    color:white
+}
+
+a:hover {
+    color:orangered;
+    text-decoration: none;
+    cursor: pointer;
+}

@@ -1,0 +1,15 @@
+<div>
+    <h1 class="three-d-view">Ravi Ranjan</h1>
+    <p style="padding-left: 10px;">Full Stack Developer | Angular | Spring Boot</p>
+    <div class="article">
+    <article>I am working in banking domain as a software development engineer. My responsibility is to develop web application. I am expertise in angularjs, angular 5+, HTML5, CSS3, Javascript, Typescript, java, springboot,sql.</article>
+    </div>
+    <!--<div class="left-nav">
+    <span class="clickLinkStyle"><a class="anchorLink" (click)="getMarks()">Education Details</a></span>
+    <span class="clickLinkStyle"><a class="anchorLink" (click)="getPrfDet()">Work Experience</a></span>
+    </div>-->
+    <div class="articleDetails">
+    <app-my-education class="appMargin"  *ngIf="isMarks"></app-my-education>
+    <app-my-carrer class="appMargin" *ngIf="isPrfDet"></app-my-carrer>
+    </div>
+</div>
